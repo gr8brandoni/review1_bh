@@ -1,0 +1,13 @@
+border {
+    padding: 2em 1em 2em 1em
+}
+h1 {
+    color: orange;
+    font-weight: bold;
+}
+body{
+    margin: 2em 1em 2em 1em;
+    font-size: small;
+    font-family:'Times New Roman', Times, serif;
+
+}
