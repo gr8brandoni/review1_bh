@@ -1,13 +1,36 @@
+@font-face {
+    font-family: "AlexBrush";
+    src: url(./alex-brush/AlexBrush-Regular.ttf)
+}
 border {
     padding: 2em 1em 2em 1em
 }
 h1 {
-    color: orange;
+    color: maroon;
     font-weight: bold;
+    font-family: "AlexBrush, sans-serif"
+}
+h2 {
+    text-decoration: underline;
+    background-image: url(images/background.gif);
 }
 body{
     margin: 2em 1em 2em 1em;
     font-size: small;
     font-family:'Times New Roman', Times, serif;
-
+    color: navy;
+    line-height: normal;
+    background-color: azure;
+    background-repeat: no-repeat;
+    border-style: groove;
+    border-width: thin;
+    border-color: maroon;
+    border-radius: unset;
+}
+.purple {
+    color: white;
+    border-color: black;
+    border-width: 2px;
+    border-style: dashed;
+    background-color: maroon
 }
