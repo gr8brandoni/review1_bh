@@ -1,14 +1,18 @@
+/*Name: Brandon Hansen*/
+/*Assignment: Superhero 1.1*/
+/*Course: CPTR 245*/
+/*Date: 10/17/2022*/
+/*Font downloaded added in @font-face and used in <h1>*/
+/*class attribute added down at the bottom and used in the paragraph under the first photo*/
 @font-face {
     font-family: "AlexBrush";
-    src: url(./alex-brush/AlexBrush-Regular.ttf)
+    src: url(alex-brush/AlexBrush-Regular.ttf)
 }
-border {
-    padding: 2em 1em 2em 1em
-}
+
 h1 {
     color: maroon;
     font-weight: bold;
-    font-family: "AlexBrush, sans-serif"
+    font-family: "AlexBrush" , "sans-serif"
 }
 h2 {
     text-decoration: underline;
@@ -25,7 +29,8 @@ body{
     border-style: groove;
     border-width: thin;
     border-color: maroon;
-    border-radius: unset;
+    border-radius: 20px;
+    padding: 1em 1em 1em 1em;
 }
 .purple {
     color: white;
